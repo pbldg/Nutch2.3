@@ -1,0 +1,103 @@
+2016-04-01 16:49:21,355 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2016-04-01 16:49:21
+2016-04-01 16:49:21,355 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2016-04-01 16:49:21,355 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2016-04-01 16:49:21,356 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2016-04-01 16:49:21,356 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2016-04-01 16:49:21,671 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-04-01 16:49:21,672 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-04-01 16:49:21,672 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-04-01 16:49:22,600 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:49:23,952 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:49:24,017 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-01 16:49:24,025 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-01 16:49:24,070 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:49:24,578 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:49:24,696 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:49:24,861 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:49:25,080 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-04-01 16:49:25,080 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-04-01 16:49:25,080 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-04-01 16:49:25,195 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:49:25,287 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-01 16:49:25,455 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2016-04-01 16:49:25, time elapsed: 00:00:04
+2016-04-01 16:49:25,456 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1459500561-247747413 containing 0 URLs
+2016-04-01 16:50:15,643 INFO  fetcher.FetcherJob - FetcherJob: starting at 2016-04-01 16:50:15
+2016-04-01 16:50:15,644 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2016-04-01 16:50:15,646 INFO  fetcher.FetcherJob - FetcherJob: threads: 8
+2016-04-01 16:50:15,646 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2016-04-01 16:50:15,646 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2016-04-01 16:50:15,646 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2016-04-01 16:50:17,120 INFO  http.Http - http.proxy.host = null
+2016-04-01 16:50:17,120 INFO  http.Http - http.proxy.port = 8080
+2016-04-01 16:50:17,121 INFO  http.Http - http.timeout = 10000
+2016-04-01 16:50:17,121 INFO  http.Http - http.content.limit = 65536
+2016-04-01 16:50:17,121 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-04-01 16:50:17,121 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-04-01 16:50:17,121 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-04-01 16:50:17,129 INFO  http.Http - http.proxy.host = null
+2016-04-01 16:50:17,129 INFO  http.Http - http.proxy.port = 8080
+2016-04-01 16:50:17,130 INFO  http.Http - http.timeout = 10000
+2016-04-01 16:50:17,130 INFO  http.Http - http.content.limit = 65536
+2016-04-01 16:50:17,130 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-04-01 16:50:17,130 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-04-01 16:50:17,130 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-04-01 16:50:18,128 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:50:18,341 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:50:18,413 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-01 16:50:18,420 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-01 16:50:18,480 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:50:18,968 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:50:19,089 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:50:19,169 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:50:19,435 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:50:19,472 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2016-04-01 16:50:19,472 INFO  fetcher.FetcherJob - Fetcher: threads: 8
+2016-04-01 16:50:19,473 INFO  fetcher.FetcherJob - QueueFeeder finished: total 0 records. Hit by time limit :0
+2016-04-01 16:50:19,484 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=0
+2016-04-01 16:50:19,484 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=0
+2016-04-01 16:50:19,485 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=0
+2016-04-01 16:50:19,485 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=0
+2016-04-01 16:50:19,485 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=0
+2016-04-01 16:50:19,486 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=0
+2016-04-01 16:50:19,486 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=0
+2016-04-01 16:50:19,486 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2016-04-01 16:50:19,486 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=0
+2016-04-01 16:50:19,486 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2016-04-01 16:50:24,487 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 0 pages, 0 errors, 0.0 0 pages/s, 0 0 kb/s, 0 URLs in 0 queues
+2016-04-01 16:50:24,487 INFO  fetcher.FetcherJob - -activeThreads=0
+2016-04-01 16:50:24,491 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-01 16:50:24,816 INFO  fetcher.FetcherJob - FetcherJob: finished at 2016-04-01 16:50:24, time elapsed: 00:00:09
+2016-04-01 16:51:59,270 INFO  parse.ParserJob - ParserJob: starting at 2016-04-01 16:51:59
+2016-04-01 16:51:59,272 INFO  parse.ParserJob - ParserJob: resuming:	false
+2016-04-01 16:51:59,272 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2016-04-01 16:51:59,272 INFO  parse.ParserJob - ParserJob: parsing all
+2016-04-01 16:52:00,503 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-04-01 16:52:01,530 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:52:01,783 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:52:01,886 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-01 16:52:01,893 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-01 16:52:01,939 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:52:02,562 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:52:02,665 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:52:02,709 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:52:02,789 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:52:02,823 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-04-01 16:52:02,890 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-01 16:52:03,453 INFO  parse.ParserJob - ParserJob: success
+2016-04-01 16:52:03,454 INFO  parse.ParserJob - ParserJob: finished at 2016-04-01 16:52:03, time elapsed: 00:00:04
+2016-04-01 16:53:30,191 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting at 2016-04-01 16:53:30
+2016-04-01 16:53:30,192 INFO  crawl.DbUpdaterJob - DbUpdaterJob: updatinging all
+2016-04-01 16:53:31,675 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:53:31,913 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:53:32,002 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-01 16:53:32,009 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-01 16:53:32,058 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:53:32,576 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:53:32,643 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:53:32,714 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:53:32,930 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: '6vhao_webpage'Assuming they are the same.
+2016-04-01 16:53:32,984 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-04-01 16:53:32,984 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-04-01 16:53:32,985 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-04-01 16:53:32,988 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-01 16:53:33,441 INFO  crawl.DbUpdaterJob - DbUpdaterJob: finished at 2016-04-01 16:53:33, time elapsed: 00:00:03
