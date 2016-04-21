@@ -35,5 +35,7 @@
 # skip URLs with slash-delimited segment that repeats 3+ times, to break loops
 -.*(/[^/]+)/[^/]+\1/[^/]+\1/
 
+-life.ju.taobao.com\
+-skip.ju.taobao.com\
 # accept anything else
-+.
+#+.
